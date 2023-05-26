@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,800&display=swap');
+
+
+.content{
+    grid-column: span 2;
+    background-color: #ebebeb;
+    border: 1px solid rgba(247, 0, 255, 0);
+    row-gap: 0px;
+}
+
+.Content__tab{
+
+}
+
+.Content__tab__header{
+    display: flex;
+    margin-left: 10px;
+    gap: 50px;
+}
+
+.Content__tab__header__title{
+    margin-right: 10px;
+    color: var(--cor-escura);
+}
+
+.Content__tab__header__title h1{
+    margin-bottom: 1px;
+    font-family: 'Playfair', serif;
+    font-size: 4rem;
+}
+.Content__tab__header__title p{
+    margin-top: 0px;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.Content__tab__header__animal-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.Content__tab__header__animal-info__number{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: var(--cor-principal);
+    font-family: 'Playfair', serif;
+    flex: 50%;
+    align-items: flex-start;
+}
+
+.Content__tab__header__animal-info__number p{
+    font-size: 40px;
+    text-align: center;
+    vertical-align: center;   
+    margin: 0px; 
+}
+
+.Content__tab__header__animal-info__name{
+    width: 50px;
+    height: 50px;
+    border-radius: 0px 0px 10px 10px;
+    color: var(--cor-escura);
+    background-color: white;
+    font-family: 'Playfair', serif;
+}
+
+.Content__tab__header__animal-info__name p{
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+}
+
+.Content__tab__article{
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10px;
+    justify-self: center;
+}
+
+.Content__tab__article__img{
+    height: 40vh;
+    width: auto;
+
+    border-radius: 25px;
+    justify-self: center;
+}
+
+.Content__tab__article__quote{
+    margin: auto;
+    width: 50%;
+    padding: 10px 100px 10px 100px;
+    grid-column: span 2;
+    font-family: 'Playfair', serif;
+    font-size: larger;
+    text-align: center;
+    border-radius: 25px;
+
+    background: var(--cor-escura);
+    color: white;
+}
+
+.Content__tab__article__table{
+    width: 20vw;
+    background: var(--gradiente);
+    border-radius: 15px;
+    vertical-align: center;
+    margin: auto;
+}
+
+.Content__tab__article__table > tr{
+    line-height: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Content__tab__article__table__text{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    border-bottom: 2px solid var(--cor-escura); 
+    text-align: start;
+}
