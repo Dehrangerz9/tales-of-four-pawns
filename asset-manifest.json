@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tales-of-four-pawns/static/css/main.2a78037d.css",
+    "main.js": "/tales-of-four-pawns/static/js/main.a668a4cf.js",
+    "static/js/787.455bbbcb.chunk.js": "/tales-of-four-pawns/static/js/787.455bbbcb.chunk.js",
+    "index.html": "/tales-of-four-pawns/index.html",
+    "main.2a78037d.css.map": "/tales-of-four-pawns/static/css/main.2a78037d.css.map",
+    "main.a668a4cf.js.map": "/tales-of-four-pawns/static/js/main.a668a4cf.js.map",
+    "787.455bbbcb.chunk.js.map": "/tales-of-four-pawns/static/js/787.455bbbcb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a78037d.css",
+    "static/js/main.a668a4cf.js"
+  ]
+}
