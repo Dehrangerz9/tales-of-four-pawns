@@ -1,9 +1,0 @@
-nome: Tales of Four Paws
-animais:
-	lobo
-	raposa
-	coiote
-	gato
-	cachorro
-
-vou precisar de um header, um body com 5 botoões um pra cada animal, um footer e é isso...
